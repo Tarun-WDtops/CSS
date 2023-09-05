@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Origin</title>
+    <style>
+      .Origin {
+        border: 10px dotted orange;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-origin: border-box;
+        background-repeat: no-repeat;
+        padding: 50px;
+      }
+
+      .Origin1 {
+        border: 10px dotted blue;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-origin: padding-box;
+        background-repeat: no-repeat;
+        padding: 50px;
+      }
+
+      .Origin2 {
+        border: 10px dashed green;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-origin: content-box;
+        background-repeat: no-repeat;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Origin">Background Origin[Border-Box]</div>
+    <br />
+    <br />
+    <br />
+    <div class="Origin1">Background Origin[Padding-Box]</div>
+    <br />
+    <br />
+    <br />
+    <div class="Origin2">Background Origin[Content-Box]</div>
+  </body>
+</html>

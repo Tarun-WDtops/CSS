@@ -152,30 +152,41 @@
   margin-right: 10x;
   
 }
-.indian{
 
-}
 
 ul{
   list-style-type: none;
 }
- 
-.Eats{
+ .main-eats
+ {
   display: flex;
-  font-size: larger;  
-  padding-top: 50px;
-  align-items: baseline;
+  justify-content: space-between;
+ }
+
+
+.indian{
+padding-left: 35px;
+}
+
+.class1{
+/* width: 150px; */
+margin-left: 5px;
+padding-bottom: 100px;
+font-size: medium;
+
+}
+.class2{
+  /* width: 150px; */
+font-size: medium;
+margin-left: 0%;
+}
+.appstore{
+  margin-top: 230px;
+  display: flex;
+  padding-left: 0px;
   
 }
 
-.indian{
-padding-left: 50px;
-}
-.class1{
-/* padding-left: 50px; */
-margin-left: 200px;
-margin-right: 200px;
-}
-.class2{
-  margin-right: 20px;
-}
+img{
+  margin-left: 30px;
+  padding-left: 0px;

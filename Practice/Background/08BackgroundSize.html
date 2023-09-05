@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Size</title>
+    <style>
+      .Size {
+        border: 10px solid orange;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-size: auto;
+        background-repeat: no-repeat;
+      }
+
+      .Size1 {
+        border: 10px solid royalblue;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .Size2 {
+        border: 10px solid green;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .Size3 {
+        border: 10px solid green;
+        width: 600px;
+        height: 400px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        background-position: 100px 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Size">Background Size[Auto]</div>
+    <br />
+    <br />
+    <br />
+    <div class="Size1">Background Size[Contain]</div>
+    <br />
+    <br />
+    <br />
+    <div class="Size2">Background Size[Cover]</div>
+    <br />
+    <br />
+    <br />
+    <div class="Size3">Background Size</div>
+  </body>
+</html>

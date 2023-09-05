@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background-clip</title>
+    <style>
+      .border-box {
+        border: 10px dotted green;
+        width: 600px;
+        height: 400px;
+        padding: 50px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .padding-box {
+        border: 10px dotted green;
+        width: 600px;
+        height: 400px;
+        padding: 50px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-clip: padding-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .content-box {
+        border: 10px dotted green;
+        width: 600px;
+        height: 400px;
+        padding: 50px;
+        background-image: url(../../../Assignment/HTML/Images/Flag_of_India.svg.webp);
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border-box">background-clip[Border-Box]</div>
+    <br />
+    <br />
+    <br />
+    <div class="padding-box">background-clip[Padding-Box]</div>
+    <br />
+    <br />
+    <br />
+    <div class="content-box">background-clip[Content-Box]</div>
+  </body>
+</html>
