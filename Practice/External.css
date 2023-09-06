@@ -1,0 +1,9 @@
+.army {
+    border: 5px solid green;
+    width: 200px;
+    height: 200px;
+    color: orange;
+    background-color: white;
+    font-size: large;
+    align-items: center;
+  }
