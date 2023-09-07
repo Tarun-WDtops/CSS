@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedu Element Selector</title>
+    <style>
+        h1::before{
+            content:"<";
+        }
+        h1::after{
+            content: ">";
+        }
+        h1::first-line{
+            color: orange;
+        }
+        p:hover{
+            font-weight: bold;
+            color: red;
+        }
+        h2::first-letter{
+          font-size: 50px;
+          color: orange;
+        }
+      
+        
+    </style>
+</head>
+<body>
+   <h1>Psuedu Element Selector</h1> 
+   <div>
+     <p>Indian Army</p>
+     <p>Indian Air Force</p>
+     <p>Indian Navy</p>
+   <div>
+     <p>
+       > The Indian Armed Forces are the military forces of the Republic of
+       India.
+     </p>
+     <p>> World's second-largest standing army and the largest army.</p>
+     <p>> The President of India is the Supreme Commander of the Indian Army</p>
+   </div> 
+   <p><b>> Para (Special Forces):</b> Formed in 1966, the Para (SF) are the largest and most important part of the Special Forces of India. </p>
+   <p><b>> Ghatak Force:</b>Ghatak Platoon, or Ghatak Commandos, is a special operations capable infantry platoon.</p>
+   <p><b>> Marine Commandos (MARCOS):</b> Marine Commandos (MARCOS) is an elite special operations unit of the Indian Navy.[</p>
+   <p><b>> Garud Commando Force:</b> The Garud Commando Force is the Special Forces unit of the Indian Air Force. </p>
+
+   <h2><b>Indian Army</b></h2>
+   <h2><b>JAIHIND</b></h2>
+</body>
+</html>
