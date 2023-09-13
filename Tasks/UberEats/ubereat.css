@@ -1,192 +1,195 @@
-.ubereat{
-    background: url(../../css/Image/bodyimg.webp);
-    background-size:100%,1000px;
-    height: 600px;
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
-    padding: 20px;
-    font-size: 40px;  
-  }
-  .uber {
-    padding-top: 140px;
-    font-size: 50px;
-    font-family: cursive;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  .fa-solid {
-    padding: 20px;
-    font-size: 20px;
-  }
-  .AddressBar {
-    width: 40%;
-    height: 50px;
-    border: 0;
-  }
-  .Delivery {
-    width: 10%;
-    height: 50px;
-    border: 0;
-    text-align: center;
-  }
-  .food {
-    color: white;
-    background-color: black;
-    width: 10%;
-    height: 50px;
-    border: 0;
-    border-radius: 10px;
-    font-size: 15px;
-  }
-  .login {
-    color: black;
-    background-color: white;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    border-radius: 50px;
-    border: 0;
-    width: 80px;
-    height: 50px;
-    margin-left: 850px;
-  }
-  .signup {
-    color: white;
-    background-color: black;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    border-radius: 50px;
-    border: 0;
-    width: 80px;
-    height: 50px;
-    margin-left: 20px;
-  }
- .signin{
+.ubereat {
+  background: url(../../../css/Image/bodyimg.webp);
+  background-size: 100%;
+  height: 600px;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  padding: 20px;
+  font-size: 40px;
+}
+.uber {
+  padding-top: 140px;
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.fa-solid {
+  padding: 20px;
+  font-size: 20px;
+}
+.AddressBar {
+  width: 40%;
+  height: 50px;
+  border: 0;
+}
+.Delivery {
+  width: 10%;
+  height: 50px;
+  border: 0;
+  text-align: center;
+}
+.food {
+  color: white;
+  background-color: black;
+  width: 10%;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.login {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 0;
+  width: 80px;
+  height: 50px;
+  margin-left: 850px;
+}
+.signup {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 0;
+  width: 80px;
+  height: 50px;
+  margin-left: 20px;
+}
+.signin {
   font-size: 15px;
   margin-top: 20px;
   font-weight: 500;
- }
+}
 
- .feed{
-    margin-top: 50px;
-    padding-right: 30px;
-}
-.employee{
-    font-size: 30px;
-    font-weight:bold;
-}
-.restaurent{
+.feed {
   margin-top: 50px;
   padding-right: 30px;
-  
 }
-.delivery{
+.employee {
   font-size: 30px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.deliver{
+.restaurent {
   margin-top: 50px;
   padding-right: 30px;
-  
 }
-.signuber{
+.delivery {
   font-size: 30px;
-  font-weight:bold;
+  font-weight: bold;
 }
-.maindiv{
-  display:flex;
-  padding-left:30px;
+.deliver {
+  margin-top: 50px;
+  padding-right: 30px;
+}
+.signuber {
+  font-size: 30px;
+  font-weight: bold;
+}
+.maindiv {
+  display: flex;
+  padding-left: 30px;
   padding-top: 40px;
-
 }
-.cities{
+.cities {
   display: flex;
   align-items: center;
   padding-top: 50px;
-  
 }
-.near{
+.near {
   padding-left: 30px;
 }
 
-.view{
+.view {
   padding-left: 935px;
 }
-.Army{
+.Army {
   padding-left: 30px;
 }
-.name{
-  display:flex;
- font-size: larger; 
-  }
-  
-  ul{list-style-type: none;}
-  
- li{
-   margin-bottom: 30px;
-   margin-right: 20px;
-   padding-right: 140px;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-   
-} 
-
-.rahul{
-  display:flex;
-  align-items: center; 
-  margin-left: 38px;
-  font-size: larger;
-  padding-top : 50px;
-  
-}
-.gaurav{
-  padding-left: 680px;
-  
-}
-.tarun{
-  font-size: larger;
+.name {
   display: flex;
-   
-}
-.deepak{
-  margin-right: 10x;
-  
+  font-size: larger;
 }
 
-
-ul{
+ul {
   list-style-type: none;
 }
- .main-eats
- {
+
+li {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  padding-right: 140px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.rahul {
+  display: flex;
+  align-items: center;
+  margin-left: 38px;
+  font-size: larger;
+  padding-top: 50px;
+}
+.gaurav {
+  padding-left: 680px;
+}
+.tarun {
+  font-size: larger;
+  display: flex;
+}
+.deepak {
+  margin-right: 10x;
+}
+
+ul {
+  list-style-type: none;
+}
+.main-eats {
   display: flex;
   justify-content: space-between;
- }
-
-
-.indian{
-padding-left: 35px;
+  padding-top: 50px;
 }
 
-.class1{
-/* width: 150px; */
-margin-left: 5px;
-padding-bottom: 100px;
-font-size: medium;
-
+.indian {
+  padding-left: 35px;
 }
-.class2{
+
+.class1 {
   /* width: 150px; */
-font-size: medium;
-margin-left: 0%;
+  margin-left: 5px;
+  padding-bottom: 100px;
+  font-size: medium;
 }
-.appstore{
-  margin-top: 230px;
+.class2 {
+  /* width: 150px; */
+  font-size: medium;
+  margin-left: 0px;
+}
+.appstore {
+  margin-top: 200px;
   display: flex;
-  padding-left: 0px;
-  
+  gap: 20px;
 }
 
-img{
+i {
   margin-left: 30px;
-  padding-left: 0px;
+  margin-top: 30px;
+}
+.brand {
+  display: flex;
+}
+.policy,
+th {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 530px;
+}
+.policy1 {
+  margin-left: 430px;
+  margin-top: 20px;
+}
