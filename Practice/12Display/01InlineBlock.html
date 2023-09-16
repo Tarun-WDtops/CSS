@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Block</title>
+    <style>
+      * {
+        border: 6px solid black;
+        margin: 10px;
+      }
+      .tarun {
+        border: 2px solid red;
+        display: inline;
+      }
+      .rahul {
+        border: 2px solid red;
+        display: block;
+      }
+      .deepak {
+        border: 2px solid red;
+        display: inline-block;
+      }
+      div[class*="gaurav"] {
+        border: 2px solid red;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tarun">Display Inline</div>
+
+    <li>
+      Note:- A Display Inline does not start with new line and take width as per
+      requirement.
+    </li>
+    <br />
+
+    <div class="rahul">Display Block</div>
+    <li>
+      Note:- A Display Border always start with new line and takes the full
+      width of web page, from left to right.
+    </li>
+    <br />
+
+    <div class="parent">
+      <div class="gaurav">Inline - Block</div>
+      <div class="gaurav1">Inline - Block</div>
+      <div class="gaurav2">Inline - Block</div>
+      <div class="gaurav3">Inline - Block</div>
+      <div class="gaurav4">Inline - Block</div>
+    </div>
+    <li>
+      Note:- Inline-block It is formatted just like the inline element, where it
+      does not start on a new line.
+    </li>
+  </body>
+</html>
