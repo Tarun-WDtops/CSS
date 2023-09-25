@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Properties</title>
+    <style>
+      .parent {
+        display: flex;
+        gap: 20px;
+      }
+      .tarun {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .gaurav {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+      }
+      .rahul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .bhai {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+      }
+      .India {
+        display: flex;
+        flex: wr;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Properties of Flex container</h1>
+    <li>Display flex / Inline-flex</li>
+    <li>Flex-direction</li>
+    <li>Flex-wrap</li>
+    <li>Flex-flow</li>
+    <li>justify-content</li>
+    <li>align-items</li>
+    <hr />
+    <h1>Display flex / Inline-flex</h1>
+    <li>
+      Flex is the value of css display . By using display flex in parent
+      element, child elements automatically align like Column or Row
+    </li>
+    <br />
+    <b>Example -:</b>
+    <div class="parent">
+      <div class="box">box</div>
+      <div class="box1">box1</div>
+      <div class="box2">box2</div>
+      <div class="box3">box3</div>
+    </div>
+    <br />
+    <hr />
+    <h2>Flex Direction</h2>
+    <li>
+      Flex Direction property is given to flex container to change direction of
+      flex items. By default, flex direction is row.
+    </li>
+    <h2>Flex Directions value</h2>
+    <ol>
+      <li>Row ( default)</li>
+      <li>Row-reverse</li>
+      <li>Column</li>
+      <li>Column-reverse</li>
+    </ol>
+    <br />
+    <b>Example -:</b>
+    <ol>
+      <li><h3>Flex Direction - Row</h3></li>
+      <div class="tarun">
+        <div class="box">box</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+      </div>
+      <li><h3>Flex Direction - Row-Reverse</h3></li>
+      <div class="gaurav">
+        <div class="box">box</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+      </div>
+      <li><h3>Flex Direction - Column</h3></li>
+      <div class="rahul">
+        <div class="box">box</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+      </div>
+      <li><h3>Flex Direction - Column-Reverse</h3></li>
+      <div class="bhai">
+        <div class="box">box</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+      </div>
+    </ol>
+    <br />
+    <hr />
+    <h2>Flex Wrap</h2>
+    <li>
+      Flex items will always fit in one row even if content is more. flex wrap
+      is used to allow items to wrap in next line or wrap in reverse direction.
+    </li>
+    <br />
+    <b>Example -:</b>
+    <div class="India">
+      <div class="box">box</div>
+      <div class="box1">box1</div>
+      <div class="box2">box2</div>
+    </div>
+  </body>
+</html>
