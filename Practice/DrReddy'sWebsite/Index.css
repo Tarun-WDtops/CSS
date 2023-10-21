@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar {
+  padding-left: 90px;
+  margin-left: 50px;
+  display: flex;
+  gap: 200px;
+  padding-top: 30px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  padding-top: 10px;
+}
+.second-nav {
+  display: flex;
+  list-style-type: none;
+  margin-left: 90px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container-01 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.first-slide {
+  width: 100%;
+}
+.second-side {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
