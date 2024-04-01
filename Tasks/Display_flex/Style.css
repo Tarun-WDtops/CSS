@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.container {
+  width: 90%;
+  background-color: purple;
+  margin: 0 auto;
+}
+.first-box {
+  width: 400px;
+  height: 70px;
+  background-color: orchid;
+}
+.yellow {
+  width: 190px;
+  height: 100px;
+  background-color: orangered;
+}
