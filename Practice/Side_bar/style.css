@@ -28,6 +28,7 @@ ul {
 }
 .about-me {
   width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -42,12 +43,28 @@ ul {
   border-radius: 50%;
   border: 2px solid saddlebrown;
 }
+.me:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.info :hover {
+  transform: scale(1.1);
+}
+/* .info h2 {
+  color: orange;
+}
+.info p {
+  color: green;
+} */
 .flag-img {
   width: 30px;
   height: 20px;
   display: none;
 }
-
+.flag-img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 .logo-img {
   width: 30px;
   margin-right: 10px;
@@ -83,6 +100,10 @@ ul li p {
 .side-bar:hover ul li p {
   display: block;
 }
-ul li p:hover {
+ul li :hover {
+  transform: scale(1.3);
   text-shadow: 3px 3px 5px #000, 0 0 20px saddlebrown;
+}
+.logo-img:hover {
+  box-shadow: 3px 3px 5px #000, 0 0 20px saddlebrown;
 }
