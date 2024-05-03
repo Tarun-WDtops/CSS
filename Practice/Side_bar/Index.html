@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      function buttonClick() {
+        const el = document.getElementById('element1');
+        el.style.display = "block"
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -51,7 +57,12 @@
             <p>Log-out</p>
           </li>
         </ul>
-      </div>
+<button type="button" onclick="buttonClick(event)" id="element1">
+  Click
+</button>
+<div class="tab-content" id="element1">
+Hello
+</div>
     </header>
   </body>
 </html>
