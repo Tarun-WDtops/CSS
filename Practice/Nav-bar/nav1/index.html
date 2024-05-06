@@ -37,7 +37,7 @@
     <div id="main-div">
       <div class="icon-flex">
         <img src="../image/profile.svg" class="dp" />
-        <i class="fa-solid fa-bars"></i>
+        <span onclick="showHide()"><i class="fa-solid fa-bars"></i></span>
       </div>
       <div class="hide-item">
         <ul>
@@ -60,6 +60,13 @@
   <script>
     function show() {
       let a = (document.getElementById("main-div").style.display = "block");
+    }
+    function showHide() {
+      let a = document.getElementById("main-div");
+
+      if ((a.style.display = "block")) {
+        a.style.display = "none";
+      }
     }
   </script>
 </html>

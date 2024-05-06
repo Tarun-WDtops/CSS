@@ -30,9 +30,9 @@ nav {
 
 /* None - Item */
 #main-div {
-  width: 200px;
+  width: 150px;
   height: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid cornflowerblue;
   background-color: bisque;
   animation-name: magic;
@@ -63,6 +63,9 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   gap: 100px;
+}
+.icon-flex i {
+  padding-right: 5px;
 }
